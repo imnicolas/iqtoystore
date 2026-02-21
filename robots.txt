@@ -1,0 +1,13 @@
+# robots.txt — IQ Toy Store
+# https://www.iqtoystore.com.ar
+
+# Permitir todos los crawlers
+User-agent: *
+Allow: /
+
+# Bloquear rutas innecesarias (agregar si en el futuro hay /admin, /api, etc.)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.iqtoystore.com.ar/sitemap.xml
